@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1152px;
+    margin: 0px auto;
+    padding: 0 100px;
+    display: inline-block;
+}
+
+/* navigation bar */
+
+.desktop-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    padding: 2px 30px;
+    padding-right: 0;
+    position: fixed;
+    z-index: 200;
+    background: fixed;
+    /* background-color: #e774608e; */
+    margin: 20px auto;
+}
+
+.desktop-nav .menu-items{
+    display: flex;
+    list-style: none;
+}
+
+.desktop-nav .menu-items li{
+    margin: 0 20px;
+}
+
+.desktop-nav .menu-items li:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.desktop-nav .menu-items li a{
+    text-decoration: none;
+    color: #424551;
+    font-family: "Lato" , "Sans Serif";
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+
+.desktop-nav .menu-items li a.btn{
+    color: #fff;
+}
+
+a.btn{
+    background: #FF3F3A;
+    border-radius: 4px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+/* hero section */
+
+.hero-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-container .left h1{
+    font-size: 45px;
+    font-family: monospace;
+    margin: 8px 0 24px 0;
+}
+
+.hero-bg{
+    display: none;
+    position: absolute;
+}
+
+a.btn.red {
+    position: relative;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    color: #FF3F3A;
+    border: 2px solid #FF3F3A;
+}
+
+a.btn{
+    color: #fff;
+    border: 2px solid #FF3F3A;
+    position: relative;
+    left: 1px;
+    top: 0px;
+}
+
+.hero-container .right {
+    padding-right: 50px;
+}
+
+.hero-container .left {
+    flex: 1;
+}
+
+.body {
+    background-color: #e774608e;
+}
+
+.photo{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    left: 180px;
+    width: 550px;
+}
+
+.yozuv{
+    position: relative;
+    bottom: 30px;
+}
+
+.text .graduated{
+    display: flex;
+    font-size: 3rem;
+    font-family: 'Lato' , 'Sans Serif';
+}
+
+.text li a{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-between;
+    bottom: 38px;
+    left: 120px;
+    color: #424551;
+    font-size: 15px;
+}
+
+.text li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.text2 li a{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-between;
+    bottom: 40px;
+    left: 80px;
+    color: #424551;
+    font-size: 15px;
+}
+
+.text2 li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.text2 .graduated2{
+    display: flex;
+    font-size: 3rem;
+    font-family: 'Lato' , 'Sans Serif';
+}
+
+.text2{
+    position: relative;
+    left: 320px;
+    bottom: 74px;
+}
+
+.text3 li a{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-between;
+    bottom: 38px;
+    left: 80px;
+    color: #424551;
+    font-size: 15px;
+}
+
+.text3 li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.text3 .graduated3{
+    display: flex;
+    font-size: 3rem;
+    font-family: 'Lato' , 'Sans Serif';
+}
+
+.text3{
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+}
+
+.text4 li a{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-between;
+    bottom: 38px;
+    left: 60px;
+    color: #424551;
+    font-size: 15px;
+}
+
+.text4 li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.text4 .graduated4{
+    display: flex;
+    font-size: 3rem;
+    font-family: 'Lato' , 'Sans Serif';
+}
+
+.text4{
+    position: relative;
+    left: 860px;
+    bottom: 222px;
+}
+
+.ellipse{
+    display: flex;
+    position: relative;
+    bottom: 270px;
+    left: 280px;
+}
+
+.ellipse2{
+    display: flex;
+    position: relative;
+    bottom: 280px;
+    left: 555px;
+}
+
+.ellipse3{
+    display: flex;
+    position: relative;
+    bottom: 290px;
+    left: 810px;
+}
+.vectoor{
+    position: relative;
+    top: 4px;
+    left: 0;
+}
+.vectoor:hover{
+    cursor: pointer;
+}
